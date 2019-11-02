@@ -2,7 +2,8 @@
  * ContactInfo
  * details for each contact are stored here
  * @author ShawnChoudhury
- *
+ * @author JoshuaChopra
+ * @author ThomasTee
  */
 public class ContactInfo {
 

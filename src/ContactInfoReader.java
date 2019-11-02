@@ -9,8 +9,8 @@ import java.util.Scanner;
  * purpose: read in a csv file of contact information
  * Populate a HashMap with names as keys
  * and contact information as values
- * @author ShawnChoudhury
- *
+ * @author JoshuaChopra
+ * @author ThomasTee
  */
 
 public class ContactInfoReader {
@@ -49,8 +49,10 @@ public class ContactInfoReader {
 				
 				String address = columnData[3];
 				
+				// fill up the constructor
 				ContactInfo contact = new ContactInfo(name, number, email, socialMediaHandle, address);
 				
+				// put the contact info in to the HashMap
 				contactInfoMap.put(contact.getName(), contact);
 				
 			}
