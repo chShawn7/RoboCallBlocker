@@ -9,6 +9,7 @@ import java.util.Scanner;
  * purpose: read in a csv file of contact information
  * Populate a HashMap with names as keys
  * and contact information as values
+ * @author ShawnChoudhury
  * @author JoshuaChopra
  * @author ThomasTee
  */
